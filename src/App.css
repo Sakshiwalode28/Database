@@ -1,38 +1,84 @@
+
+
+body{
+  background-color: lavender;
+}
+.first__h1{
+  margin: 24px;
+    padding: 29px;
+    width: 970px;
+    font-size: 52px;
+    text-align: center;
+}
+
+
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+ 
+}
+
+.first__box{
+  font: 1em sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  
+}
+.first__lable{
+  padding: 10px;
+  font: 1em sans-serif;
+ 
+
+}
+.first__file{
+  width: 880px;
+  height: 44px;
+  color: black;
+  background:#EFEFEF;
+  padding: 10px;
+  border: 1px solid black;
+
+
+  
+}
+.first__btn{
+  height: 44px;
+    width: 110px;
+    font-size: 20px
+}
+
+
+.topInput{
+  display: flex;
+  justify-content: center;
+  margin: 50px 20px;
+  padding: 20px;
+
+}
+
+.delimitter{
+  position: absolute;
+    left: 396px;
+    font-size: 23px;
+}
+
+.lines{
+  position: absolute;
+ right: 396px;
+ font-size: 23px;
+}
+.inputBox{
+  height: 36px;
+}
+
+
+
+.file__here{
+  background-color: black;
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin: 4px;
 }
